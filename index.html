@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Hotwire Foam Cutter - Complete Build Guide</title>
+</head>
+<body style="background-color: #09daff;">
+   
+    <h1>DIY Hotwire Foam Cutter: Complete Build Guide</h1>
+    <p><em>A beginner-friendly guide to building your own foam cutting machine</em></p>
+
+    <h2>What You'll Need</h2>
+    <h3>Electronic Components</h3>
+    <ul>
+        <li>12V 8A DC power supply (AliExpress special works fine)</li>
+        <li>DC motor controller (rated for at least 8A)</li>
+        <li>26 gauge NiChrome wire (resistance wire)</li>
+        <li>18 gauge copper wire for connections</li>
+        <li>Lamp cable with switch and plug</li>
+        <li>9A or 10A fuse + fuse holder</li>
+    </ul>
+
+    <h3>Tools & Hardware</h3>
+    <ul>
+        <li>Philips screwdriver</li>
+        <li>Two bolts</li>
+        <li>Two butterfly nuts</li>
+        <li>Four or more washers</li>
+        <li>Wire strippers or knife</li>
+        <li>Patience and imagination</li>
+    </ul>
+
+    <h2>How It Works (The Science)</h2>
+    <p>
+        A hotwire foam cutter uses electrical resistance to heat a wire. When electrons flow through a conductive material, they collide with atoms in the wire. These collisions convert electrical energy into heat—a phenomenon called <strong>Joule Heating</strong>.
+    </p>
+    <p>
+        Different metals conduct electricity differently. Copper and aluminum have low resistance, so electrons pass through too easily without generating much heat. We need a material with higher resistance.
+    </p>
+    <p>
+        <strong>Nickel-Chromium (NiChrome) alloy</strong> is ideal because it has enough resistance to glow hot when current passes through, but not so much that it melts instantly. It's the sweet spot for controlled heating.
+    </p>
+
+    <a href="https://youtu.be/OC7sNfNuTNU?si=S5qBC84W8lBIgGz7" target="_blank">click here if low voltage bores you</a>
+
+    <h2>Step-by-Step Assembly</h2>
+
+    <h3>Step 1: Understand Your Power Supply</h3>
+    <p>
+        Your power supply converts dangerous AC wall power into safer DC power. Look for the silkscreen labels on your unit:
+    </p>
+    <ul>
+        <li><strong>AC In</strong> (or L and N): Where wall power enters</li>
+        <li><strong>V+ and V-</strong> (or + and -): Where DC power exits to your controller</li>
+        <li><strong>Ground symbol (⏚)</strong>: Safety ground connection</li>
+    </ul>
+
+    <h3>Step 2: Install the Safety Fuse</h3>
+    <p>
+        Even though your motor controller probably has a fuse, add an external one between the power supply and controller. This protects your controller from power supply failures.
+    </p>
+    <p>
+        <strong>How to wire it:</strong> Cut one of the wires running from V+ on the power supply. Connect one end to the fuse holder, the other end to the remaining terminal. Use a 9A or 10A fuse.
+    </p>
+
+    <h3>Step 3: Connect the Motor Controller</h3>
+    <p>
+        Wire the fused output from your power supply to the motor controller's input terminals (usually marked + and - or IN). The controller's output terminals will connect to your hot wire later.
+    </p>
+    <p>
+        The motor controller lets you adjust voltage, which controls wire temperature. More voltage = hotter wire = faster cuts but more risk of melting too deep.
+    </p>
+
+    <h3>Step 4: Prepare Your Connection Wires</h3>
+    <p>
+        Cut your 18 gauge wire into manageable lengths. Strip about 2cm (3/4 inch) from each end.
+    </p>
+    <p>
+        <strong>Important:</strong> Don't burn the insulation off with a lighter. It leaves carbon residue that creates poor connections and smells terrible. Use proper wire strippers or carefully score and peel the insulation.
+    </p>
+
+    <h3>Step 5: Wire the AC Input</h3>
+    <p>
+        Take your lamp cord (unplugged!) and strip the ends. Your power supply has three AC terminals:
+    </p>
+    <ul>
+        <li><strong>Live (L)</strong>: Usually brown or black wire</li>
+        <li><strong>Neutral (N)</strong>: Usually blue or white wire</li>
+        <li><strong>Ground (⏚)</strong>: Green/yellow or bare wire</li>
+    </ul>
+    <p>
+        Connect Live and Neutral to the AC In terminals. Match the colors if your power supply indicates L and N.
+    </p>
+
+    <h3>Step 6: The Ground Question</h3>
+    <p>
+        Here's where you decide how "radical" you want to be. The ground wire protects you if something fails internally and touches the metal case.
+    </p>
+    <p>
+        <strong>Option A (Safe):</strong> Connect the ground wire to the ground terminal. If your house has old wiring, definitely do this.
+    </p>
+    <p>
+        <strong>Option B (Living dangerously):</strong> Skip it and hope for the best. Not recommended, but acknowledged as a choice some people make.
+    </p>
+
+    <h3>Step 7: Set Up the Cutting Wire</h3>
+    <p>
+        Mount two bolts through a frame (wood or metal) with washers to isolate them. Space them about 20-30cm apart depending on what you're cutting.
+    </p>
+    <p>
+        Wrap your 26 gauge NiChrome wire around each bolt and secure with butterfly nuts. The wire should be taut but not stretched to breaking.
+    </p>
+    <p>
+        Connect your 18 gauge wires from the motor controller output to these bolts. Polarity doesn't matter here—it's just heating a resistor.
+    </p>
+
+    <h3>Step 8: First Power-Up</h3>
+    <p>
+        Before plugging in:
+    </p>
+    <ol>
+        <li>Double-check all connections are tight</li>
+        <li>Ensure no bare wires touch each other or metal frame</li>
+        <li>Have a fire extinguisher nearby (seriously)</li>
+        <li>Wear safety glasses</li>
+    </ol>
+    <p>
+        Plug it in, turn on your lamp switch, and slowly turn up the motor controller. The wire should start to glow dull red. If it glows bright orange immediately, turn it down—that's too hot and will melt through your foam too aggressively.
+    </p>
+
+    <h2>Troubleshooting</h2>
+    <h3>Wire doesn't heat up</h3>
+    <ul>
+        <li>Check fuse</li>
+        <li>Verify NiChrome wire isn't broken</li>
+        <li>Ensure controller is getting power (LED indicators help)</li>
+    </ul>
+
+    <h3>Wire glows but breaks instantly</h3>
+    <ul>
+        <li>Too much tension on the wire</li>
+        <li>Voltage too high—turn down the controller</li>
+        <li>Wire gauge too thin—try 24 gauge instead</li>
+    </ul>
+
+    <h3>Cuts are messy/burned</h3>
+    <ul>
+        <li>Wire is too hot—reduce voltage</li>
+        <li>Moving too slowly through foam</li>
+        <li>Foam type matters—polystyrene cuts cleaner than polyurethane</li>
+    </ul>
+
+    <h2>Safety Warnings (Read This)</h2>
+    <ul>
+        <li>Never leave powered on unattended</li>
+        <li>Work in ventilated area—burning foam releases toxic fumes</li>
+        <li>NiChrome wire stays hot for a while after power off</li>
+        <li>Don't touch the wire when powered (obviously)</li>
+        <li>Keep flammable materials away</li>
+        <li>Unplug when not in use</li>
+    </ul>
+
+    <h2>What You Can Make</h2>
+    <p>
+        Once working, you can cut:
+    </p>
+    <ul>
+        <li>Custom packaging foam</li>
+        <li>RC airplane wings</li>
+        <li>Architectural models</li>
+        <li>Cosplay props</li>
+        <li>Art projects</li>
+    </ul>
+  <a href="https://imgbb.com/"><img
+     src="https://i.ibb.co/d0s03Sw8/electrocat.jpg" 
+    alt="electrocat" border="0"></a>
+    <h2>The world is yours!</h2>
+
+    <hr>
+    <p><em>Guide by Alex | Built with questionable decisions and working electronics</em></p>
+    <p><small>Disclaimer: Electricity is dangerous if youre dumb. Build at your own risk. If you die, it's not my fault.</small></p>
+
+</body>
+</html>
